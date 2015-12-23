@@ -15,6 +15,14 @@
 		333AA9731C29451A0080B33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9711C29451A0080B33C /* LaunchScreen.storyboard */; };
 		333AA97E1C29451A0080B33C /* PYArcMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333AA97D1C29451A0080B33C /* PYArcMenuViewTests.m */; };
 		333AA9891C29451A0080B33C /* PYArcMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333AA9881C29451A0080B33C /* PYArcMenuViewUITests.m */; };
+		333AA99D1C2945FF0080B33C /* PYArcMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333AA99C1C2945FF0080B33C /* PYArcMenuView.m */; };
+		333AA9A51C2955330080B33C /* item_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA99F1C2955330080B33C /* item_camera.png */; };
+		333AA9A61C2955330080B33C /* item_music.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9A01C2955330080B33C /* item_music.png */; };
+		333AA9A71C2955330080B33C /* item_place.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9A11C2955330080B33C /* item_place.png */; };
+		333AA9A81C2955330080B33C /* item_sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9A21C2955330080B33C /* item_sleep.png */; };
+		333AA9A91C2955330080B33C /* item_thought.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9A31C2955330080B33C /* item_thought.png */; };
+		333AA9AA1C2955330080B33C /* item_with.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9A41C2955330080B33C /* item_with.png */; };
+		333AA9AC1C29554F0080B33C /* PYArcMenu_button_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 333AA9AB1C29554F0080B33C /* PYArcMenu_button_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,15 @@
 		333AA9841C29451A0080B33C /* PYArcMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYArcMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333AA9881C29451A0080B33C /* PYArcMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYArcMenuViewUITests.m; sourceTree = "<group>"; };
 		333AA98A1C29451A0080B33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333AA99B1C2945FF0080B33C /* PYArcMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYArcMenuView.h; path = PYArcMenuView/PYArcMenuView.h; sourceTree = "<group>"; };
+		333AA99C1C2945FF0080B33C /* PYArcMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PYArcMenuView.m; path = PYArcMenuView/PYArcMenuView.m; sourceTree = "<group>"; };
+		333AA99F1C2955330080B33C /* item_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_camera.png; sourceTree = "<group>"; };
+		333AA9A01C2955330080B33C /* item_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_music.png; sourceTree = "<group>"; };
+		333AA9A11C2955330080B33C /* item_place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_place.png; sourceTree = "<group>"; };
+		333AA9A21C2955330080B33C /* item_sleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_sleep.png; sourceTree = "<group>"; };
+		333AA9A31C2955330080B33C /* item_thought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_thought.png; sourceTree = "<group>"; };
+		333AA9A41C2955330080B33C /* item_with.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_with.png; sourceTree = "<group>"; };
+		333AA9AB1C29554F0080B33C /* PYArcMenu_button_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PYArcMenu_button_image.png; path = PYArcMenuView/PYArcMenu_button_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,13 @@
 		333AA9621C29451A0080B33C /* PYArcMenuView */ = {
 			isa = PBXGroup;
 			children = (
+				333AA99F1C2955330080B33C /* item_camera.png */,
+				333AA9A01C2955330080B33C /* item_music.png */,
+				333AA9A11C2955330080B33C /* item_place.png */,
+				333AA9A21C2955330080B33C /* item_sleep.png */,
+				333AA9A31C2955330080B33C /* item_thought.png */,
+				333AA9A41C2955330080B33C /* item_with.png */,
+				333AA99E1C2946060080B33C /* PYArcMenuView */,
 				333AA9661C29451A0080B33C /* AppDelegate.h */,
 				333AA9671C29451A0080B33C /* AppDelegate.m */,
 				333AA9691C29451A0080B33C /* ViewController.h */,
@@ -138,6 +162,16 @@
 				333AA98A1C29451A0080B33C /* Info.plist */,
 			);
 			path = PYArcMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		333AA99E1C2946060080B33C /* PYArcMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				333AA9AB1C29554F0080B33C /* PYArcMenu_button_image.png */,
+				333AA99B1C2945FF0080B33C /* PYArcMenuView.h */,
+				333AA99C1C2945FF0080B33C /* PYArcMenuView.m */,
+			);
+			name = PYArcMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +280,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333AA9AC1C29554F0080B33C /* PYArcMenu_button_image.png in Resources */,
 				333AA9731C29451A0080B33C /* LaunchScreen.storyboard in Resources */,
+				333AA9AA1C2955330080B33C /* item_with.png in Resources */,
+				333AA9A61C2955330080B33C /* item_music.png in Resources */,
+				333AA9A71C2955330080B33C /* item_place.png in Resources */,
+				333AA9A81C2955330080B33C /* item_sleep.png in Resources */,
+				333AA9A91C2955330080B33C /* item_thought.png in Resources */,
+				333AA9A51C2955330080B33C /* item_camera.png in Resources */,
 				333AA9701C29451A0080B33C /* Assets.xcassets in Resources */,
 				333AA96E1C29451A0080B33C /* Main.storyboard in Resources */,
 			);
@@ -274,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333AA96B1C29451A0080B33C /* ViewController.m in Sources */,
+				333AA99D1C2945FF0080B33C /* PYArcMenuView.m in Sources */,
 				333AA9681C29451A0080B33C /* AppDelegate.m in Sources */,
 				333AA9651C29451A0080B33C /* main.m in Sources */,
 			);
